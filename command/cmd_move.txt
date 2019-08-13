@@ -1,0 +1,9 @@
+visual mode
+	w forward a words
+	b go back a words
+	ctl <- back a words
+	ctl -> forwrd a words
+
+insert mode 
+	ctl <- back a words
+	ctl -> forward a words
