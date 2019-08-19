@@ -1,0 +1,3 @@
+// max a window and size back
+// look a files path
+// how to debug php in vim
