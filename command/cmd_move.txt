@@ -1,9 +1,16 @@
 visual mode
-	w forward a words
-	b go back a words
-	ctl <- back a words
-	ctl -> forwrd a words
+	w forward to head of previous words
+	b go back to head  of next words
+	ge forward to a end of previous words
+	e forward to a end of next words
+	
+	W B gE E move by white-space separated WORDS
+	
+	//ctl <- back a words	mac不好用
+	//ctl -> forward a words	mac不好用
 
 insert mode 
 	ctl <- back a words
 	ctl -> forward a words
+
+
