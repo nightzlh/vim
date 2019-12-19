@@ -1,0 +1,2 @@
+show vim srcipt variable when edit file
+:echo varName
