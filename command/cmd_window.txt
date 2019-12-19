@@ -6,16 +6,18 @@
 new is used for create new file when (v)split
 
 ---- window size ----
-height:
-	{height} CTRL-w _		set
+height: the top is fixed
+	{height} CTRL-w _		set heighest possible
 	{height} CTRL-w -		delta
 	{height} CTRL-w +		delta
 
 	:res[size] -{height}	delta
 	:res[size] +{height}	delta
 
-width:
-	{width} CTRL-w |		set
+	z{nr}<CR>				set by value nr
+
+width:	the left is fixed
+	{width} CTRL-w |		set widest possible
 	{width} CTRL-w < 		delta
 	{width} CTRL_w > 		delta	
 
@@ -31,3 +33,13 @@ last window.e
 	:quit
 	ZZ
 	:only This closes all windows, except for the current one
+
+
+---- window move ---
+CTRL-W h	move to the window on the left
+CTRL-W j	move to the window below
+CTRL-W k	move to the window above
+CTRL-W l	move to the window on the right
+
+CTRL-W t	move to the TOP window
+CTRL-W b	move to the BOTTOM window

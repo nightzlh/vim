@@ -1,0 +1,6 @@
+environment variable 
+	$VIMRUNTIME 
+	如果$VIMRUNTIME/doc下没有doc目录 :help无法给出VIM帮助文档
+	
+	
+
