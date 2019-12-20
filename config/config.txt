@@ -18,3 +18,5 @@ environment variable
 
 echo $VIMRUNTIME
 echo $VIM
+
+环境变量中的$VIM $VIMRUNTIME 要配置真实路径 不可以是软链

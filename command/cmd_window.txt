@@ -40,6 +40,9 @@ CTRL-W h	move to the window on the left
 CTRL-W j	move to the window below
 CTRL-W k	move to the window above
 CTRL-W l	move to the window on the right
+	
+CTRL-W t	move to the TOP window		//左上角
+CTRL-W b	move to the BOTTOM window	//右下角 
 
-CTRL-W t	move to the TOP window
-CTRL-W b	move to the BOTTOM window
+CTRL-w H	竖直最大化
+CTRL-w J	水平最大化
