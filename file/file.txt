@@ -1,3 +1,9 @@
+option:path
+    user to search for file
+    add a path: set path+='p/a/t/h'
+    remove a path: set path+='p/a/t/h'
+    get path value: set path?
+
 show dir:
 	netrwPlugin.vim
 	use vim open dir
@@ -7,15 +13,22 @@ show dir:
 switch to file
 	normal mode: gf under file name
 
-open file in new window(horizontal)
-	sfind + filename
+find and edit file in current window
+    comamnd :find + filename 
+    normal: gf
 
+find and open the file in new window
+    command: sfind + filename
+    normal: CTRL-w f under file name of cur text 
 
-A nice way to directly start Vim to edit a file somewhere in the 'path':
-	vim "+find stdio.h"
+find and open the file in new tab
 
-
-CTRL-w gf
+normal: CTRL-w gf
     Open a new tab page and edit the file name under the cursor.
-CTRL-w gF
-    Open a new tab page and edit the file name under the cursor and jump to the line number following the file name.
+normal: CTRL-w gF
+    Open a new tab page and edit the file name under the cursor and jump to the line number following the file name. (filename 30, under the 'f')
+command: tabf
+ 
+open vim with find
+    A nice way to directly start Vim to edit a file somewhere in the 'path':
+	vim "+find stdio.h"

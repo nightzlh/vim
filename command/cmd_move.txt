@@ -1,6 +1,8 @@
 visual mode
+    to words head
 	w forward to head of previous words
 	b go back to head  of next words
+    to words end
 	ge forward to a end of previous words
 	e forward to a end of next words
 	
