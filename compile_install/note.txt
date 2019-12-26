@@ -1,0 +1,37 @@
+#!/bin/sh
+./configure --prefix=/usr/local/vim81 --with-features=huge \
+            --enable-rubyinterp=yes \
+            --enable-pythoninterp=yes \
+            --with-python-command=/usr/bin/python \
+            --with-python-config-dir=/usr/lib64/python2.6/config \
+            --enable-python3interp=yes \
+            --with-python3-command=/usr/bin/python3.4 \
+            --with-python3-config-dir=/usr/lib64/python3.4/config-3.4m \
+            --enable-perlinterp=yes \
+            --enable-multibyte \
+            --enable-luainterp=yes \
+            --enable-gui=gtk2 \
+            --enable-cscope
+
+./configure --prefix=/usr/local/vim81 --with-features=huge \
+            --enable-rubyinterp=yes \
+            --enable-pythoninterp=yes \
+            --enable-python3interp=yes \
+            --with-python3-command=/usr/bin/python3.4 \
+            --with-python3-config-dir=/usr/lib64/python3.4/config-3.4m \
+            --enable-perlinterp=yes \
+            --enable-multibyte \
+            --enable-luainterp=yes \
+            --enable-gui=gtk2 \
+            --enable-cscope
+
+
+./configure --prefix=/usr/local/vim81 --with-features=huge \
+            --enable-rubyinterp=yes \
+            --enable-python3interp=yes \
+            --with-python3-command=/usr/bin/python3 \
+            --enable-perlinterp=yes \
+            --enable-multibyte \
+            --enable-luainterp=yes \
+            --enable-gui=gtk2 \
+            --enable-cscope
