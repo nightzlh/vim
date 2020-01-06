@@ -1,0 +1,3 @@
+in doc 02.8
+    how to get vim help
+
