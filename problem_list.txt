@@ -1,4 +1,4 @@
-// max a window and size back
+// how to max a window and size back
 
 max:
 	max height CTL-C + _
@@ -15,3 +15,5 @@ ls ./
 
 // mac中<-按键无法删除 或者 无法回退到上面一行
 
+
+what is Mru
